@@ -15,7 +15,24 @@
   object-fit: fill;
   min-width: 300px;
   min-height: 200px;
+  max-width: 30vw;
   width: 100%;
 }
 
-/* 6min 20 seconds left */
+.card_info {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px;
+  border: 1;
+}
+
+.card_info > h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card_info > h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 8px 0px;
+}

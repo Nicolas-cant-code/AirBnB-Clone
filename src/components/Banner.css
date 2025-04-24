@@ -1,0 +1,43 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url("https://media.architecturaldigest.com/photos/62bdb5fda47d113b36863416/16:9/w_1920,c_limit/Mod%20Tree%202.jpeg")
+    no-repeat center/cover;
+}
+
+.banner_info {
+  background-color: black;
+  color: white;
+  padding: 20vh 50px 40px 50px;
+  width: 300px;
+}
+
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.banner_info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+
+.banner_info > h5 {
+  margin-top: 10px;
+}
+
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_search_button {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: "inherit" !important;
+  color: #ff7779 !important;
+}

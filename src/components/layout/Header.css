@@ -39,3 +39,24 @@
   width: 20vw;
   margin-right: 80px;
 }
+
+.header_languageIcon,
+.header_expandMoreIcon,
+.header_avatar,
+.header_right > p,
+.header_searchIcon {
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
+.header_languageIcon:hover,
+.header_expandMoreIcon:hover,
+.header_right > p:hover {
+  border-radius: 50%;
+  color: rgb(255, 119, 121);
+}
+
+.header_avatar:hover {
+  border-radius: 50%;
+  background-color: rgb(255, 119, 121);
+}

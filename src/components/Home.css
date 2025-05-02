@@ -1,4 +1,10 @@
 .home_section {
   display: flex;
   padding: 30px;
+  flex-wrap: wrap; /* Allow wrapping */
+}
+
+.home_section > * {
+  flex: 1 1 calc(33.33% - 20px);
+  margin: 12px;
 }

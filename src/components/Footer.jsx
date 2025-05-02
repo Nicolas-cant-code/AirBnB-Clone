@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <p>&copy; 2025 AirBnB Zaio.clone! No rights reserved - this is a demo</p>
-      <p>Privacy . Terms And Conditions </p>
+      <p>Privacy . Terms And Conditions . Sitemap . Company Details</p>
     </div>
     // 3 minutes left (FOOTER)
   );

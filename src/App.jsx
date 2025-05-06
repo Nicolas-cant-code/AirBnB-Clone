@@ -13,10 +13,12 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
           <Route path="/" exact>
             <Home />
           </Route>
-
           <Route path="/search">
             <SearchPage />
           </Route>

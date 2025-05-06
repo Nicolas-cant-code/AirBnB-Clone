@@ -1,6 +1,6 @@
 const initialState = {
   openClose: "closed",
-  content: "",
+  content: null,
 };
 
 export const modalReducer = (state = initialState, action) => {
@@ -14,8 +14,8 @@ export const modalReducer = (state = initialState, action) => {
     case "CLOSE_MODAL":
       return {
         ...state,
-        openClose: "closed",
-        content: "",
+        openClose: "close",
+        content: null,
       };
     default:
       return state;

@@ -1,0 +1,127 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "987-654-3210"
+    },
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$3uJp9.67.pT/gLObNQt.9OGqMajBkrlph3uV6g4YqF6lQX0E37Tv.",
+      "id": 3
+    }
+  ],
+  "bookings": [
+    {
+      "userId": "1",
+      "listingId": 1,
+      "startDate": "2025-10-01",
+      "endDate": "2025-10-07"
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "img": "https://news.airbnb.com/wp-content/uploads/sites/4/2020/08/Broadway-SocialShare.jpg?w=1200",
+      "title": "Online Experiences",
+      "description": "Unique activities we can do together, led by a world of hosts.",
+      "bath_num": 0,
+      "bed_num": 0,
+      "zip": 23456,
+      "city": "Cape Town",
+      "address": "",
+      "price": "",
+      "street": "",
+      "sq_ft": 0,
+      "email": "",
+      "userId": 0
+    },
+    {
+      "id": 2,
+      "img": "https://news.airbnb.com/wp-content/uploads/sites/4/2020/07/OlympicsxAirbnb-PressDeviceHero-LexGilletteFeatured.jpg?w=20480",
+      "title": "Unique stays",
+      "description": "Spaces that are more than just a place to sleep",
+      "bath_num": 2,
+      "bed_num": 3,
+      "zip": 23456,
+      "city": "Cape Town",
+      "address": "123 Main St",
+      "price": "",
+      "street": "James St",
+      "sq_ft": 1500,
+      "email": "",
+      "userId": 0
+    },
+    {
+      "id": 3,
+      "img": "https://news.airbnb.com/wp-content/uploads/sites/4/2018/09/IMG_20180825_1424256695.jpg?fit=697%2C294",
+      "title": "Entire homes",
+      "description": "Comfortable private places, with room for friends or family.",
+      "bath_num": 2,
+      "bed_num": 2,
+      "zip": 23456,
+      "city": "Cape Town",
+      "address": "",
+      "price": "",
+      "street": "",
+      "sq_ft": 1600,
+      "email": "",
+      "userId": 0
+    },
+    {
+      "id": 4,
+      "img": "https://a0.muscache.com/im/ml/photo_enhancement/pictures/bd754bc8-3dfc-4b04-a805-83d991ccba8d.jpg?im_w=720",
+      "title": "Hartbeespoort, South Africa",
+      "description": "Mountain and lake views",
+      "bath_num": 2,
+      "bed_num": 2,
+      "zip": 23456,
+      "city": "Cape Town",
+      "address": "",
+      "price": "R1,200/night",
+      "street": "",
+      "sq_ft": 1700,
+      "email": "",
+      "userId": 0
+    },
+    {
+      "id": 5,
+      "img": "https://a0.muscache.com/im/pictures/d1061623-322c-439e-9fb2-878b0331ab9c.jpg?im_w=720",
+      "title": "Dolphin Coast, South Africa",
+      "description": "Beach and ocean views.",
+      "bath_num": 2,
+      "bed_num": 2,
+      "zip": 23456,
+      "city": "Cape Town",
+      "address": "",
+      "price": "R8,400/night",
+      "street": "",
+      "sq_ft": 1800,
+      "email": "",
+      "userId": 0
+    },
+    {
+      "id": 6,
+      "img": "https://a0.muscache.com/im/pictures/109117013/5bff66ba_original.jpg?im_w=720",
+      "title": "Clarens, South Africa",
+      "description": "A beautiful place to stay in the mountains.",
+      "bath_num": 2,
+      "bed_num": 2,
+      "zip": 23456,
+      "city": "Cape Town",
+      "address": "",
+      "price": "R3,700/night",
+      "street": "",
+      "sq_ft": 1900,
+      "email": "",
+      "userId": 0
+    }
+  ]
+}

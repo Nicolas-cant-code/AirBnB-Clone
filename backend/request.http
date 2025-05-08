@@ -1,0 +1,45 @@
+# GET ALL USERS 
+GET http://localhost:3001/users
+###
+
+# GET A SINGLE USER
+GET http://localhost:3001/users/1
+
+###
+# REGISTER A USER
+POST  http://localhost:3001/register
+Content-Type: application/json
+
+{
+      "email": "olivier@mail.com",
+      "password": "bestPassw0rd"
+}
+###
+
+POST  http://localhost:3001/login
+Content-Type: application/json
+
+{
+      "email": "olivier@mail.com",
+      "password": "bestPassw0rd"
+}
+
+###
+
+### GET ALL BOOKINGS
+http://localhost:3001/bookings
+
+### GET ALL BOOKINGS FOR USERS
+GET http://localhost:3001/bookings?userId=1
+
+### GET ALL LISTINGS
+GET http://localhost:3001/listings/
+
+###
+# POST http://localhost:3001/users
+# content-type: application/json
+
+# {
+#      "title": "airbnb clone",
+#       "content": "SpongeBob"
+# }

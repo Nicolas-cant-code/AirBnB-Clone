@@ -7,6 +7,7 @@ import { Avatar } from "@mui/material";
 import "./Header.css";
 import { openModal } from "../../actions/modalAction";
 import Login from "../Login";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -20,15 +21,19 @@ const Header = () => {
 
   return (
     <div className="header">
-      <img
-        src="https://download.logo.wine/logo/Airbnb/Airbnb-Logo.wine.png"
-        alt="logo"
-        className="header_logo"
-      />
+      <Link to="/">
+        <img
+          src="https://download.logo.wine/logo/Airbnb/Airbnb-Logo.wine.png"
+          alt="logo"
+          className="header_logo"
+        />
+      </Link>
 
       <div className="header_center">
         <input type="text" placeholder="Search..." />
-        <SearchIcon className="header_searchIcon" />
+        <Link to="/search" className="header_searchLink">
+          <SearchIcon className="header_searchIcon" />
+        </Link>
       </div>
 
       <div className="header_right">

@@ -40,6 +40,10 @@
   margin-right: 80px;
 }
 
+.header_searchIcon {
+  padding-top: 3px;
+}
+
 .header_languageIcon,
 .header_expandMoreIcon,
 .header_avatar,
@@ -99,4 +103,8 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.header_searchLink {
+  color: black;
 }
